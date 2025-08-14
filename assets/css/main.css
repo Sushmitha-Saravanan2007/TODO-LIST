@@ -1,0 +1,50 @@
+*{
+    background-color:indigo;
+    color: aliceblue;
+}
+.TWO{
+    text-align: center;
+    background-color: hotpink;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+#in{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 280px;
+    font-size: 30px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+#ad{
+    background-color: black;
+    color: white;
+    height:40px ;
+    width: 50px;
+    border-radius: 5px;
+
+}
+#re{
+    padding: 30px;
+}
+li{
+    height: 40px;
+    width: 280px; 
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+#fr{
+    height: 30px;
+    width: 63px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+
+  
+}
