@@ -1,0 +1,32 @@
+<title>
+    todo-list
+</title>
+<link rel="stylesheet" href="todo.css">
+<DIV class="TWO">
+<h1 class="one" style="background-color:bisque; color: black;">TODO-LIST🗒️</h1>
+<h2 style="background-color:bisque; color: black;" ">
+    SCHEDULE YOUR PLANS...
+</h2>
+</DIV>
+<center>
+<div id="re">
+<input type="text" id="in">
+<button id="ad" onclick="add()">ADD</button>
+</div>
+<ul id="list">
+</ul>
+<script>
+    var a=document.getElementById('in')
+    var b=document.getElementById('list')
+    function add()
+    {
+        var c=document.createElement('h3')
+        c.innerHTML=a.value+"<button id='fr'  onclick='del(event)'>DELETE</button>"
+        b.append(c)
+    }
+    function del()
+    {
+        event.target.parentElement.remove()
+
+    }
+
